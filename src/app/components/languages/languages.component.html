@@ -1,0 +1,13 @@
+<!-- Languages-->
+<section class="resume-section" id="languages">
+    <div class="resume-section-content">
+        <h2 class="mb-5" *ngIf="lang==='eng'">Languages</h2>
+        <h2 class="mb-5" *ngIf="lang==='fr'">Langues</h2>
+        <div class="row row-cols-2" *ngFor="let item of lang_list[lang]">
+            <div class="border-bottom mb-2"><span class="fw-bold">{{item.name_lang}}</span> : {{item.description}}</div>
+            <div>
+                <fa-icon [icon]="faStar" *ngFor="let item of [].constructor(item.level)"></fa-icon>
+            </div>
+        </div>  
+    </div>
+</section>

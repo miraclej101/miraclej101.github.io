@@ -1,0 +1,47 @@
+ <!-- Skills-->
+ <section class="resume-section" id="skills">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Skills</h2>
+        <div class="subheading mb-3">Programming Languages & Tools</div>
+        <ul class="list-inline dev-icons">
+            <li class="list-inline-item"><fa-icon [icon]="faPython"></fa-icon></li>
+            <li class="list-inline-item"><fa-icon [icon]="faJava"></fa-icon></li>
+            <li class="list-inline-item"><img src="../../../assets/icon/c-program.png" alt="C" width="50" height="50"></li>
+            <li class="list-inline-item"><img src="../../../assets/icon/cplus_plus.png" alt="C++" width="50" height="50"></li>
+            <li class="list-inline-item"><img src="../../../assets/icon/icons8-sql-60.png" alt="sql" width="50" height="50"></li>
+            <li class="list-inline-item"><img src="../../../assets/icon/icons8-postgresql.svg" alt="postgresql" width="50" height="50"></li>
+            <li class="list-inline-item"><img src="../../../assets/icon/icons8-power-bi.svg" alt="Power Bi" width="50" height="50"></li>
+            <li class="list-inline-item"><img src="../../../assets/icon/pandas-logo.png" alt="Pandas" width="60" height="50"></li>
+            <li class="list-inline-item"><img src="../../../assets/icon/pyspark-mini-logo.jpg" alt="PySpark" width="60" height="50"></li>
+            <li class="list-inline-item"><img src="../../../assets/icon/logo_numpy.svg" alt="Numpy" width="50" height="50"></li>
+            <li class="list-inline-item"><fa-icon [icon]="faHtml5"></fa-icon></li>
+            <li class="list-inline-item"><fa-icon [icon]="faCss3"></fa-icon></li>
+            <li class="list-inline-item"><fa-icon [icon]="faJsSquare"></fa-icon></li>
+            <li class="list-inline-item"><fa-icon [icon]="faAngular"></fa-icon></li>
+            <li class="list-inline-item"><fa-icon [icon]="faBootstrap"></fa-icon></li>
+            <li class="list-inline-item"><fa-icon [icon]="faPhp"></fa-icon></li>
+            <li class="list-inline-item"><img src="../../../assets/icon/icons8-flask.svg" alt="flask" width="70" height="70"></li>
+        </ul>
+        <div class="subheading mb-3">Soft Skills</div>
+        <ul class="fa-ul mb-0">
+            <li *ngFor="let item of soft_skills[lang]">
+                <span class="fa-li"><fa-icon [icon]="faCheck"></fa-icon></span>
+               {{item}}
+            </li>
+        </ul>
+    
+        <br>
+        <div class="d-flex flex-column mb-2">
+            <div class="d-flex flex-row">
+                <a class= "me-2" target="_blank" href="https://icons8.com/icon/qYfwpsRXEcpc/power-bi">Power BI</a> icon {{ref[lang]}}<a class="mx-2" target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
+            <div class="d-flex">
+                <a class="me-2" target="_blank" href="https://icons8.com/icon/ywH6EJgZ7sm5/sql">Sql</a>icon {{ref[lang]}}<a class="mx-2" target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
+            <div class="d-flex">
+                <a class="me-2" target="_blank" href="https://icons8.com/icon/AqYCfGyGXlO7/flask">Flask</a> icon {{ref[lang]}}<a class="mx-2" target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class="m-0" />

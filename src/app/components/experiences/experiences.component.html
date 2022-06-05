@@ -1,0 +1,15 @@
+  <!-- Experience-->
+  <section class="resume-section" id="experience">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Experience</h2>
+        <div *ngIf="lang==='eng'">
+          <app-exp-item *ngFor="let exp of Exps_eng" [exp]="exp">
+          </app-exp-item>
+        </div>
+        <div *ngIf="lang==='fr'">
+          <app-exp-item *ngFor="let exp of Exps_fr" [exp]="exp">
+          </app-exp-item>
+        </div>
+    </div>
+  </section>
+  <hr class="m-0" />

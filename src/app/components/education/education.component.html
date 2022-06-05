@@ -1,0 +1,15 @@
+ <!-- Education-->
+ <section class="resume-section" id="education">
+    <div div class="resume-section-content">
+        <h2 class="mb-5">Education</h2>
+        <div *ngIf="lang==='eng'">
+            <app-edu-items *ngFor="let edu of Edu_eng" [edu]="edu">
+            </app-edu-items>
+        </div>
+        <div *ngIf="lang==='fr'">
+            <app-edu-items *ngFor="let edu of Edu_fr" [edu]="edu">
+            </app-edu-items>
+        </div>
+    </div>
+</section>
+<hr class="m-0" />
