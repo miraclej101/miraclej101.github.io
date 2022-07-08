@@ -14,6 +14,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { InterestsComponent } from './components/interests/interests.component';
 import { LanguagesComponent } from './components/languages/languages.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { CertificateComponent } from './components/certificate/certificate.component';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { FooterComponent } from './components/footer/footer.component';
     InterestsComponent,
     LanguagesComponent,
     FooterComponent,
+    CertificateComponent,
  
   ],
   imports: [

@@ -1,3 +1,4 @@
+import { CertificateComponent } from './components/certificate/certificate.component';
 import { LanguagesComponent } from './components/languages/languages.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { EducationComponent } from './components/education/education.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path:'experience/:lang', component: ExperiencesComponent},
   { path:'education/:lang', component: EducationComponent},
   { path:'skills/:lang', component:SkillsComponent},
+  { path:'certifications/:lang', component:CertificateComponent},
   { path:'languages/:lang', component:LanguagesComponent},
   { path:'interests/:lang',component:InterestsComponent}
 ];

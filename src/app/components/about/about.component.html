@@ -7,13 +7,20 @@
                 <span class="text-primary">Janumporn</span>
             </h1>
             <div class="subheading mb-5">
-                35 rue du Docteur Rollet · Villeurbanne, FR 69100 ·
+                Villeurbanne, FRANCE 69100 ·
                 <a href="mailto:malasrij101@gmail.com">malasrij101@gmail.com</a>
             </div>
             <p class="lead mb-5" *ngIf="lang==='fr'; else defaut"> 
+                <span class ="lead mb-3">
+                    <em>"On n'est jamais trop vieux pour apprendre quelque chose de nouveau, ni trop jeune pour en apprendre trop" - Suzy Kassem.</em>
+                    <br>
+                </span>
                {{description[1]}}      
             </p>
             <ng-template #defaut> 
+                <span class ="lead mb-3">
+                    <em>"You are never too old to learn something new, or too young to learn too much."-Suzy Kassem.</em>
+                </span>
                 <p class="lead mb-5">
                     {{description[0]}}   
                 </p>      

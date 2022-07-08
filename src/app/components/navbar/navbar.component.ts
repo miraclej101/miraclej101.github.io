@@ -13,11 +13,11 @@ export class NavbarComponent implements OnInit {
   faEarthEurope = faEarthEurope;
   lang : string ='eng';
   nav_list = {
-    eng:['about','experience','education','skills','languages','activities & interests'],
-    fr:['coordonnées','expériences','formations & diplômes','compétences','langues',"centres d'intérêt"]
+    eng:['about','experience','education','skills','certifications','languages','activities & interests'],
+    fr:['profil','expériences','formations & diplômes','compétences','certifcations','langues',"centres d'intérêt"]
   } 
 
-  link_list : string[] = ['about','experience','education','skills','languages','interests'];
+  link_list : string[] = ['about','experience','education','skills','certifications','languages','interests'];
   nav_items :string[] = [];
   @Output() langChange : EventEmitter<string> = new EventEmitter();
   constructor() { }

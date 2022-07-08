@@ -38,10 +38,11 @@ export class SkillsComponent implements OnInit {
       "décideur"],
   } 
 
-  ref : {[key:string]:string} = {
-    eng:'by',
-    fr:'par'
+  text : {[key:string]:string[]} = {
+    eng:['Skills','Programming Languages & Tools','by'],
+    fr:['Compétences','Langages de programmation et outils','par'],
   }
+  
  lang:any|string="eng";
   constructor(private activatedRoute:ActivatedRoute) { }
 
