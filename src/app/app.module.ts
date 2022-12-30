@@ -31,7 +31,7 @@ import { CertificateComponent } from './components/certificate/certificate.compo
     LanguagesComponent,
     FooterComponent,
     CertificateComponent,
- 
+  
   ],
   imports: [
     BrowserModule,

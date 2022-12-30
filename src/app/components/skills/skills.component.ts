@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faCheck } from '@fortawesome/free-solid-svg-icons';
-import { faHtml5, faCss3Alt, faJsSquare, faAngular, faBootstrap, faPhp, faPython, faJava } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3Alt, faJsSquare, faAngular, faBootstrap, faPhp, faPython, faJava,faRProject } from '@fortawesome/free-brands-svg-icons';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
@@ -19,6 +19,7 @@ export class SkillsComponent implements OnInit {
   faPhp = faPhp;
   faPython = faPython;
   faJava = faJava;
+  faRProject = faRProject;
   soft_skills : {[key:string]:string[]} = {
     eng:["project management",
       "learn fast",

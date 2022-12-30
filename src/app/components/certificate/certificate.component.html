@@ -2,26 +2,10 @@
   <section class="resume-section" id="certificate">
     <div class="resume-section-content">
         <h2 class="mb-5">Certifications</h2>
-        <ul class="fa-ul mb-0">
-            <li>
+        <ul class="fa-ul mb-0" *ngFor="let cert of certificates">
+            <li >
                 <span class="fa-li"><fa-icon [icon]="faCertificate" size="lg" [styles]="{'color':'#ffc107'}"></fa-icon></span>
-               <a  href="https://www.coursera.org/account/accomplishments/certificate/W5FXAMFQNX2D">Programming in Python - Coursera & Meta</a>
-                <span> ,07/2022</span>
-            </li>
-            <li>
-                <span class="fa-li"><fa-icon [icon]="faCertificate" size="lg" [styles]="{'color':'#ffc107'}"></fa-icon></span>
-               <a  href="https://www.coursera.org/account/accomplishments/certificate/HFZ3G5NGCDPH">Programming with JavaScript - Coursera & Meta</a>
-                <span> ,07/2022</span>
-            </li>
-            <li>
-                <span class="fa-li"><fa-icon [icon]="faCertificate" size="lg" [styles]="{'color':'#ffc107'}"></fa-icon></span>
-               <a  href="https://www.datacamp.com/statement-of-accomplishment/track/4ff60b7bc769ddbfd01459ea09adb903c841da57">Data Analyst in Power BI Track - DataCamp</a>
-                <span> ,07/2022</span>
-            </li>
-            <li>
-                <span class="fa-li"><fa-icon [icon]="faCertificate" size="lg" [styles]="{'color':'#ffc107'}"></fa-icon></span>
-               <a  href="https://www.datacamp.com/statement-of-accomplishment/track/e7fb7e8faea0cb7ed50a79b1ec0117e4cc2a39f4">Spreadsheet Fundamentals Track - DataCamp</a>
-               <span> ,06/2022</span>
+                <a  [attr.href]="cert.url">{{cert.name}} </a> <span> - {{cert.platform}}  {{cert.date}}</span>
             </li>
         </ul>
     </div>
