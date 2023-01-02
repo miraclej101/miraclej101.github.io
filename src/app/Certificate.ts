@@ -56,5 +56,19 @@ export const CERTIFICATE : Certificate[] = [
         url:'https://www.datacamp.com/statement-of-accomplishment/course/65271e38afb5fe117bb377ce0c1a21c1d649bfdf',
         date:'08/2022',
     },
+    {
+        id: 8,
+        name:'Prepare Data for Exploration',
+        platform:'Coursera-Google',
+        url:'https://www.coursera.org/account/accomplishments/certificate/5LVRNLUCHNXR',
+        date:'08/2022',
+    },
+    {
+        id: 9,
+        name:'Analyze Data to Answer Questions',
+        platform:'Coursera-Google',
+        url:'https://www.coursera.org/account/accomplishments/certificate/M5EZFTHCPUSP',
+        date:'09/2022',
+    }
 
 ]
