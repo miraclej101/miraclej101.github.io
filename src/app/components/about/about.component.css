@@ -1,0 +1,13 @@
+.brand-icon:hover {
+    background-color: #bd5d38;
+}
+.brand-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding : 5px;
+    background-color: #fff;
+    border-radius: 15%;
+    color: #fff;
+    margin-right: 1.5rem;
+}
