@@ -2,13 +2,21 @@ import {Exp} from './Exp';
 
 export const EXPS_ENG : Exp[] = [
     {
+        id: 6,
+        job_title:'Internship in web and database development',
+        company:'Cycleco, Amberieu-En-Bugey, France',
+        description:`Development for database update and UI of AiIDA - Application for the reduction of impacts on biodiversity, based on
+        React.js, Next.js and MySQL.`,
+        duration:'15 May 2023 – 31 August 2023',
+    },
+    {
         id: 5,
         job_title:'Bitcoin Data Processing (Big data) Project',
         company:'Université Claude Bernard Lyon 1, computer science department, Villeurbanne France',
         description:`Create a graphical interface to answer typical questions related to Bitcoin transaction data presented in the blockchain. Compare several approaches, 
         code optimized by python and libraries from Pyspark, pandas and Numpy. 
         Visualize the results by the matplotlip library.`,
-        duration:'31 Jan 2022– 3 May 2022',
+        duration:'31 Jan 2022 – 3 May 2022',
     },
     {
         id: 4,
@@ -17,7 +25,7 @@ export const EXPS_ENG : Exp[] = [
         description:`Development of a web tool with an ergonomic graphical interface 
         allowing the visualization, parameterization, and execution of scenarios 
         from the Internet of Things (IoT) on a network simulator.`,
-        duration:'1 Jul 2021– 31 Aug 2021',
+        duration:'1 Jul 2021 – 31 Aug 2021',
     },
     {
         id: 3,
@@ -28,7 +36,7 @@ export const EXPS_ENG : Exp[] = [
         • Allocation of owned funds to several mutual funds which invest 
         in Thailand and overseas and invest in real estate in Bangkok, 
         Thailand.`,
-        duration:'2004-Present'
+        duration:'2004 - Present'
     },
     {
         id: 2,
@@ -39,7 +47,7 @@ export const EXPS_ENG : Exp[] = [
         • Controlled budget of 1 m THB a month and introduce new 
         facility to enable internet banking minimising the exposure of 
         the company to non-payment.`,
-        duration:'2003-2015',
+        duration:'2003 - 2015',
     },
     {
         id: 1,
@@ -49,11 +57,20 @@ export const EXPS_ENG : Exp[] = [
         400,000 tonnes/year
         • Liaised and co-ordinated appropriate stakeholders in the 
         process of product redesign and new product development`,
-        duration:'2001-2002',
+        duration:'2001 - 2002',
     },
 ]
 
 export const EXPS_FR : Exp[]= [
+    {
+        id: 6,
+        job_title:'Stagiaire en informatique (développement web & base de données)',
+        company:'Cycleco, Amberieu-En-Bugey, France',
+        description:`Développement informatique pour la mise à jour de la base de données et UI
+        d'AiIDA - Application pour la réduction des impacts sur la biodiversité, basé sur
+        React.js, Next.js et MySQL.`,
+        duration:'15 mai 2023 – 31 août 2023',
+    },
     {
         id: 5,
         job_title:'Traitement des données Bitcoin (Big data)',
@@ -83,11 +100,11 @@ export const EXPS_FR : Exp[]= [
     },
     {
         id: 2,
-        job_title:'Directrice',
+        job_title:'Directrice polyvalente',
         company:'Pinkrajai Furniture Bangkok, Thaïlande',
         description:`• Gestion des comptes clients / fournisseurs (factures et chiffre d’affaires)
         • Négociation des ventes internationales et accompagnement des sales process.`, 
-        duration:'2003-2015',
+        duration:'2003 - 2015',
     },
     {
         id: 1,
@@ -96,6 +113,6 @@ export const EXPS_FR : Exp[]= [
         description:`• Contrôle de la production annuelle de 400 mille tonnes de polypropylène
         • Participation à l’installation de nouveaux équipements, et de transmission
         des savoirs faire techniques aux techniciens opérationnels (retour d’expérience)`,
-        duration:'2001-2002',
+        duration:'2001 - 2002',
     },
 ]

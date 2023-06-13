@@ -4,9 +4,9 @@ export const EDUCATIONS_ENG : Education[] = [
     {
         id: 7,
         uni_name:'Polytech Lyon, Claude Bernard University Lyon 1, Villeurbanne',
-        degree:'Master1 MIAGE (Computer Methods Applied to Business Management)',
+        degree:'Master MIAGE (Computer Methods Applied to Business Management) Business Intelligence Track',
         faculty:'Computer Science',
-        duration:'2022-2023',
+        duration:'2022-2024',
     },
     {
         id: 6,
@@ -51,9 +51,9 @@ export const EDUCATIONS_FR : Education[] = [
     {
         id: 7,
         uni_name:'Polytech Lyon, Université Claude Bernard Lyon 1, Villeurbanne',
-        degree:'Master1 MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises)',
+        degree:'Master MIAGE (Méthodes Informatiques Appliquées à la Gestion des Entreprises) Parcours Business Intelligence',
         faculty:'Informatique',
-        duration:'2022-2023',
+        duration:'2022-2024',
     },
     {
         id: 6,
